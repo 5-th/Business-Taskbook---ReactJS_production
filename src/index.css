@@ -1,0 +1,144 @@
+::-webkit-input-placeholder {color:#DCDCDC;}
+::-moz-placeholder          {color:#DCDCDC;}/* Firefox 19+ */
+:-moz-placeholder           {color:#DCDCDC;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#DCDCDC;}
+
+.container {
+	position:absolute;
+	margin-top:5%;
+  margin-left:36%;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.head-block {
+  width: 500px;
+  border: 1px solid #e6e6e6;
+  padding: 25px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: #e6e6e6;
+}
+
+.new-task-block {
+  width: 500px;
+  border: 1px solid #e6e6e6;
+  padding: 5px 0px 5px 10px;
+  border-radius: 10px;
+  margin: 0px 0px 5px 0px;
+}
+
+.new-task-block-label {
+  width: 70px;
+}
+
+.new-task-block-input {
+  width: 410px;
+  padding: 5px 5px 5px 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+.new-task-block-date {
+  width: 200px;
+  padding: 5px 5px 5px 10px;
+  margin: 0px 5px 0px 0px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+
+.all-tasks-block {
+  width: 500px;
+  border: 1px solid #e6e6e6;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+ 
+}
+
+.big-header-font {
+  color: #4d4d4d;
+  font-size: 55px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.small-header-font {
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #b3b3b3;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
+.chain {
+  display: inline-block;
+}
+
+.date {
+  width: 95px;
+  cursor: pointer;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.title {
+  width: 330px;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 3px 20px 3px 7px;
+}
+
+.done {
+  color: #cccccc;
+}
+
+.comment {
+  font-size: 12px;
+  font-style: italic;
+  padding: 3px 7px 3px 20px;
+  margin-top: -6px;
+}
+
+.icons {
+  color: #4d4d4d; 
+  cursor: pointer;
+  padding: 0px 2px 0px 2px;
+  vertical-align: baseline;
+}
+
+.ok:hover {
+  color: green;
+}
+.edit:hover {
+  color: blue;
+}
+.remove:hover {
+  color: red;
+}
+
+button {
+  background-color: #4d4d4d; 
+  color: #e6e6e6;    
+  width: 205px;
+  border: none;
+  padding: 7px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+background-color: #595959;
+  color: white;
+}
+
+button:focus {
+outline: none !important
+}
