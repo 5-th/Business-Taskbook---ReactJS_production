@@ -1,4 +1,5 @@
-#Business-Taskbook
+<strong>ReactJS production </strong>
+# Business-Taskbook
 
 <p align="center"><img src="screenshot.png" /></p>
 
@@ -24,5 +25,3 @@
 В приложении присутствует простая проверка валидности полей ввода с алерт-выводом. <br/>
 
 Присутствуют краткие комментарии по коду приложения. <br/>
-
-<i>Реализация - Production под NodeJS</i>
